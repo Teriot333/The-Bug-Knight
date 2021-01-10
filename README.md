@@ -4,8 +4,12 @@
 
 Инструкция по установке:
 
--открыть папку с модами в каталоге игры (Steam\SteamApps\workshop\content\646570\1750758531)
+-открыть папку с модами в каталоге игры (Steam\SteamApps\workshop\content\646570\1750758531);
 
--открыть файл Lobotomy.jar редактором архивов (winzip, winrar, 7z)
+-открыть файл HollowMod.jar редактором архивов (winzip, winrar, 7z);
 
--вставить в архив содержимое каталога "src" с заменой
+-открыть папку по пути HollowMod.jar\HollowModResources\localization\eng;
+
+-заменить файлы в папке eng файлами архива The-Bug-Knight-main (кроме README);
+
+-Играть!
