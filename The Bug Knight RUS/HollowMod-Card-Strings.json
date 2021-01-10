@@ -1,0 +1,485 @@
+{
+	"HollowMod:STARTINGCARDS": {
+		"NAME": "",
+		"DESCRIPTION": ""
+	},
+
+
+	"HollowMod:NailStrikeStart": {
+		"NAME": "Удар гвоздём",
+		"DESCRIPTION": "Наносит !D! урона."
+	},
+	"HollowMod:QuickDashStart": {
+		"NAME": "Быстрый рывок",
+		"DESCRIPTION": "Даёт !B! Защиты."
+	},
+	"HollowMod:FocusHealStart": {
+		"NAME": "Лёгкий фокус",
+		"DESCRIPTION": "[#EFFAFF]Фокус[] !HollowMod:focusCost!: Восполняет !M! ОЗ. NL Восполняет на 2 ОЗ меньше за каждое использование в этом бою. NL Сжигается на финальном использование.",
+		"UPGRADE_DESCRIPTION": "Восполняет !M! ОЗ. NL Восполняет на 2 ОЗ меньше за каждое использование в этом бою. NL Сжигается на финальном использование."
+	},
+	"HollowMod:CornifersMapStart": {
+		"NAME": "Карта Корнифера",
+		"DESCRIPTION": "[#EFFAFF]Фокус[] !HollowMod:focusCost!: Вы берёте !M! карты."
+	},
+
+
+
+	"HollowMod:ATTACKCARDS": {
+		"NAME": "",
+		"DESCRIPTION": ""
+	},
+
+
+	"HollowMod:AbyssShriek": {
+		"NAME": "Вопль бездны",
+		"DESCRIPTION": "[#696969]Пустота[] 2: Наносит !D! урона ВСЕМ врагам. NL Вы не можете разыгрывать Атаки в этом ходу."
+	},
+	"HollowMod:AwokenDreamNail": {
+		"NAME": "Пробуждённый гвоздь грёз",
+		"DESCRIPTION": "Наносит !D! урона. Повышает лимит hollowmod:Показателя [#F4D03F]Души[] на !M! в этом бою и заполняет твой [#F4D03F]Показатель hollowmod:Души."
+	},
+	"HollowMod:BlackTendrils": {
+		"NAME": "Щупальца пустоты",
+		"DESCRIPTION": "[#696969]Пустота[] 3: Наносит !D! урона случ. врагу. NL Восполняет 33% ОЗ за весь нанесённый урон. (Включая бонусный урон [#696969]Пустоты[]). Сжигается.",
+		"UPGRADE_DESCRIPTION": "[#696969]Пустота[] 3: Наносит !D! урона случ. врагу. NL Восполняет 50% ОЗ за весь нанесённый урон. (Включая бонусный урон [#696969]Пустоты[]). Сжигается."
+	},
+	"HollowMod:CoiledNail": {
+		"NAME": "Закрученный гвоздь",
+		"DESCRIPTION": "Наносит !D! урона. NL Если выбранный враг имеет Уязвимость, наносит двойной урон."
+	},
+	"HollowMod:CycloneSlash": {
+		"NAME": "Ураганный разрез",
+		"DESCRIPTION": "Наносит !D! урона ВСЕМ врагам. NL Урон, наносимой этой картой, повышается на !M! в этом бою."
+	},
+	"HollowMod:DashSlash": {
+		"NAME": "Разрез в рывке",
+		"DESCRIPTION": "Даёт !B! Защиты. NL Наносит !D! урона."
+	},
+	"HollowMod:DescendingDark": {
+		"NAME": "Нисходящая тьма",
+		"DESCRIPTION": "[#696969]Пустота[] 2: Наносит !D! урона ВСЕМ врагам. Сжигается."
+	},
+	"HollowMod:DesolateDive": {
+		"NAME": "Опустошающее пике",
+		"DESCRIPTION": "[#EFFAFF]Фокус[] !HollowMod:focusCost!: Наносит !D! урона ВСЕМ врагам."
+	},
+	"HollowMod:FallenFury": {
+		"NAME": "Ярость павшего",
+		"DESCRIPTION": "Наносит !D! урона. NL Если ваше ОЗ меньше 25%, наносит этот урон !M! раза."
+	},
+	"HollowMod:FastStrike": {
+		"NAME": "Резкий удар",
+		"DESCRIPTION": "Вы сбрасывате 1 карту. Наносит !D! урона. Накладывает 1 Уязвимости на !M! случ. врагов."
+	},
+	"HollowMod:GreatSlash": {
+		"NAME": "Огромный разрез",
+		"DESCRIPTION": "Наносит !D! урона ВСЕМ врагам !M! раза."
+	},
+	"HollowMod:HeavyBlow": {
+		"NAME": "Высокий удар",
+		"DESCRIPTION": "Наносит !D! урона. Накладывает !M! Слабости."
+	},
+
+
+
+
+
+
+
+
+	"HollowMod:HornetsHelp": {
+		"NAME": "Помощь Хорнет",
+		"DESCRIPTION": "Даёт X Защиты !M! раза. Наносит X урона случ. врагу !M! раза.",
+		"UPGRADE_DESCRIPTION": "Даёт X Защиты !M! раз. Наносит X урона случ. врагу !M! раз."
+	},
+	"HollowMod:HowlingWraiths": {
+		"NAME": "Воющие духи",
+		"DESCRIPTION": "[#EFFAFF]Фокус[] !HollowMod:focusCost!: Наносит !D! урона ВСЕМ врагам."
+	},
+	"HollowMod:InfectionAssault": {
+		"NAME": "Штурм инфекции",
+		"DESCRIPTION": "Наносит !D! урона. Наносит !M! дополнительного урона за каждый показатель [#FFA200]Инфекции[].",
+		"EXTENDED_DESCRIPTION": [" ( !HollowMod:SecondMagic! additional damage.)"]
+	},
+	"HollowMod:InfectedAttack": {
+		"NAME": "Заражённый удар",
+		"DESCRIPTION": "Наносит !D! урона. Накладывает !M! Яда. NL [#FFA200]Инфекция[] !HollowMod:SecondMagic!."
+	},
+	"HollowMod:InfectedCysts": {
+		"NAME": "Заражённый пузырь",
+		"DESCRIPTION": "Наносит !D! урона и накладывает !M! Яда на ВСЕХ врагов. NL [#FFA200]Инфекция[] !HollowMod:SecondMagic!. NL Сжигается."
+	},
+	"HollowMod:MidwifesHunger": {
+		"NAME": "Голод Повитухи",
+		"DESCRIPTION": "Наносит !D! урон за каждого [#60CFFF]Соратника в твоей колоде.",
+		"EXTENDED_DESCRIPTION": [" ( attacks !HollowMod:SecondMagic! times.)"]
+	},
+	"HollowMod:PogoStrike": {
+		"NAME": "Удар вниз",
+		"DESCRIPTION": "Наносит !D! урона. NL Вы сбрасываете 1 карту, затем берёте 1 карту."
+	},
+	"HollowMod:PureNailStrike": {
+		"NAME": "Идеальный удар гвоздём",
+		"DESCRIPTION": "[#EFFAFF]Фокус[] X: Наносит !D! урона. Тратит все hollowmod:Души. Наносит !M! урона X раз.",
+		"EXTENDED_DESCRIPTION": [" ( !HollowMod:SecondMagic! additional damage.)"]
+	},
+	"HollowMod:QuirrelsAssistance": {
+		"NAME": "Помощь Квиррела",
+		"DESCRIPTION": "Наносит !D! урона случ. врагу. NL  Накладывает !M! Слабость случ. врагу."
+	},
+	"HollowMod:RecoilStrike": {
+		"NAME": "Удар отступления",
+		"DESCRIPTION": "Наносит !D! урона. NL Вы кладёте [#60CFFF]Рывок из стопки сброса в руку.",
+		"UPGRADE_DESCRIPTION": "Наносит !D! урона. NL Вы кладёте [#60CFFF]Рывок из стопки сброса в руку, он стоит на [E] меньше в этом ходу."
+	},
+	"HollowMod:SharpenedNail": {
+		"NAME": "Заточенный гвоздь",
+		"DESCRIPTION": "Наносит !D! урона. NL Если выбранный враг имеет Слабость, наносит этот урон ВСЕМ другим врагам."
+	},
+	"HollowMod:SoulStrike": {
+		"NAME": "Поглотитель души",
+		"DESCRIPTION": "Наносит !D! урона. NL Даёт !M! hollowmod:Души."
+	},
+	"HollowMod:VengefulSpirit": {
+		"NAME": "Мстительный дух",
+		"DESCRIPTION": "[#EFFAFF]Фокус[] !HollowMod:focusCost!: Наносит !D! урона, затем наносит половину этого урона."
+	},
+	"HollowMod:VengefulVoid": {
+		"NAME": "Теневая душа",
+		"DESCRIPTION": "[#696969]Пустота[] 2: Наносит !D! урона !M! раза. Сжигается."
+	},
+	"HollowMod:WraithStrike": {
+		"NAME": "Призрачный удар",
+		"DESCRIPTION": "[#696969]Пустота[] 2: Наносит !D! урона. Накладывает !M! Слабости. Бонус [#696969]Пустоты[] влияет на урон этой карты на 50% больше."
+	},
+	"HollowMod:ZotesMagnificence": {
+		"NAME": "Величие Зота",
+		"DESCRIPTION": "Наносит !D! урона. Вы теряете ВСЮ Защиту. Сжигается."
+	},
+
+	"HollowMod:POWERCARDS": {
+		"NAME": "",
+		"DESCRIPTION": ""
+	},
+
+
+	"HollowMod:BaldurShell": {
+		"NAME": "Панцирь бальдра",
+		"DESCRIPTION": "Даёт !M! Защиты, когда вы используете [#EFFAFF]Фокус[].",
+		"UPGRADE_DESCRIPTION": "Начальная. Даёт !M! Защиты, когда вы используете [#EFFAFF]Фокус[]."
+	},
+	"HollowMod:BrokenVessel": {
+		"NAME": "Разбитый Сосуд",
+		"DESCRIPTION": "Когда вы получаете урон от [#FFA200]Инфекции[], наносит этот урон ВСЕМ врагам. NL Этот эффект может стакаться.",
+		"UPGRADE_DESCRIPTION": "Начальная. Когда вы получаете урон от [#FFA200]Инфекции[], наносит этот урон ВСЕМ врагам. NL Этот эффект может стакаться."
+	},
+	"HollowMod:ElderbugsWisdom": {
+		"NAME": "Мудрость Старейшины",
+		"DESCRIPTION": "Вы берёте 1 карту, когда вы разыгрываете [#60CFFF]Соратника[]."
+	},
+	"HollowMod:Flukenest": {
+		"NAME": "Тремогнездо",
+		"DESCRIPTION": "Наносит 1 урон !M! случ. врагам, когда вы разыгрываете [#60CFFF]Заклинание[]."
+	},
+	"HollowMod:Grubsong": {
+		"NAME": "Песнь гусеничек",
+		"DESCRIPTION": "Даёт 1 hollowmod:Души за первую атаку по вам в каждом ходу.",
+		"UPGRADE_DESCRIPTION": "Даёт 1 hollowmod:Души за первые !M! атаки по вам в каждом ходу."
+	},
+	"HollowMod:LordofShades": {
+		"NAME": "Повелитель теней",
+		"DESCRIPTION": "Эфирная. NL [#696969]Пустота[] !M!: Пока у вас есть [#696969]Пустота[], вы получаете 1 Шипов за каждые 2 полученные Защиты. Все Шипы уменьшаются наполовину в конце каждого вашего хода."
+	},
+	"HollowMod:MothsMistake": {
+		"NAME": "Ошибка мотылька",
+		"DESCRIPTION": "В начале каждого вашего хода накладывает !M! Яда на ВСЕХ врагов и даёт 1 [#FFA200]Инфекцию[] вам."
+	},
+	"HollowMod:ShapeofUnn": {
+		"NAME": "Облик Унн",
+		"DESCRIPTION": "Вы кладёте [#60CFFF]Рывок из стопки сброса в руку, когда вы разыгрываете [#60CFFF]Заклинание[]."
+	},
+	"HollowMod:SharpenedShadows": {
+		"NAME": "Заострённая тень",
+		"DESCRIPTION": "Пока у вас есть [#696969]Пустота[], наносит !M! урона случ. врагу, когда вы разыгрываете [#60CFFF]Рывок[]."
+	},
+	"HollowMod:SlysStrikes": {
+		"NAME": "Удары Слая",
+		"DESCRIPTION": "Эфирная. NL Даёт 1 Силу в начале каждого вашего хода."
+	},
+	"HollowMod:SoulEater": {
+		"NAME": "Пожиратель душ",
+		"DESCRIPTION": "Даёт 1 hollowmod:Душу, когда вы разыгрываете Атаку. Не работает с Атаками [#60CFFF]Заклинаниями или [#60CFFF]Соратниками[]."
+	},
+	"HollowMod:SoulMaster": {
+		"NAME": "Мастер душ",
+		"DESCRIPTION": "NL [#60CFFF]Заклинания [#EFFAFF]Фокуса[] стоят на 1 hollowmod:Душу меньше. NL [#60CFFF]Заклинания [#696969]Пустоты[] дают на 1 [#696969]Пустоту[] больше.",
+		"UPGRADE_DESCRIPTION": "Начальная. NL [#60CFFF]Заклинания [#EFFAFF]Фокуса[] стоят на 1 hollowmod:Душу меньше. NL [#60CFFF]Заклинания [#696969]Пустоты[] дают на 1 [#696969]Пустоту[] больше."
+	},
+	"HollowMod:SoulVessel": {
+		"NAME": "Сосуд души",
+		"DESCRIPTION": "Повышает максимум хранимой hollowmod:Души. hollowmod:Показатель [#F4D03F]Души[] может хранить на !M! [#F4D03F]Души[] больше в этом бою."
+	},
+	"HollowMod:ThornsofAgony": {
+		"NAME": "Колючки страданий",
+		"DESCRIPTION": "Даёт !M! Шипов."
+	},
+	"HollowMod:Weaversong": {
+		"NAME": "Песнь ткача",
+		"DESCRIPTION": "Наносит !M! урона случ. врагу, когда вы разыгрываете Атаку."
+	},
+	"HollowMod:WhiteLadysBlessing": {
+		"NAME": "Благословение Белой Леди",
+		"DESCRIPTION": "[#696969]Пустота[] !M!: Пока у вас есть [#696969]Пустота[], вы можете разыгрывать NL [#60CFFF]Заклинания [#EFFAFF]Фокуса[]. Каждое разыгрываемое [#60CFFF]Заклинание [#EFFAFF]Фокуса[] Сжигается."
+	},
+
+
+	"HollowMod:SKILLCARDS": {
+		"NAME": "",
+		"DESCRIPTION": ""
+	},
+
+
+	"HollowMod:BlackWings": {
+		"NAME": "Тёмные крылья",
+		"DESCRIPTION": "Вы теряете всю [#696969]Пустоту[]. NL За каждую !M! потерянную [#696969]Void[], даёт 1 Панцирь. Сжигается."
+	},
+	"HollowMod:ChannelNail": {
+		"NAME": "Закалка гвоздя",
+		"DESCRIPTION": "[#EFFAFF]Фокус[] 3: В след. ходу даёт [E] , и вы возьмёте на 1 карту больше. Сжигается.",
+		"UPGRADE_DESCRIPTION": "[#EFFAFF]Фокус[] 3: В след. ходу даёт [E] , и вы возьмёте на 1 карту больше."
+	},
+	"HollowMod:CloakDash": {
+		"NAME": "Плащевой рывок",
+		"DESCRIPTION": "Даёт !B! Защиты. NL Вы берёте !M! карту. Сжигается.",
+		"UPGRADE_DESCRIPTION": "NL Даёт !B! Защиты. NL Вы берёте !M! карты. Сжигается."
+	},
+	"HollowMod:ConfessorsAdvice": {
+		"NAME": "Совет Джиджи",
+		"DESCRIPTION": "NL Play the top card of your deck, add a copy of it to your discard pile. NL it costs 0 until played.",
+		"UPGRADE_DESCRIPTION": "Play the top card of your deck, add 2 copies of it to your discard pile. NL they cost 0 until played."
+	},
+	"HollowMod:CrystalDash": {
+		"NAME": "Кристальный рывок",
+		"DESCRIPTION": "Вы сбрасываете все карты в руке. Даёт !B! Защиты за каждую сброшенную карту."
+	},
+	"HollowMod:DreamGate": {
+		"NAME": "Врата грёз",
+		"DESCRIPTION": "Сжигает 1 карту. Вы берёте 1 карту с верха стопки сброса. Сжигается.",
+		"UPGRADE_DESCRIPTION": "Сжигает 1 карту. Вы берёте 2 карты с верха стопки сброса. Сжигается."
+	},
+	"HollowMod:DoubleDash": {
+		"NAME": "Двойной рывок",
+		"DESCRIPTION": "Даёт !B! Защиты. NL Даёт !M! Защиты в начале вашего след. хода."
+	},
+	"HollowMod:DungDefenderAura": {
+		"NAME": "Запах Защитника",
+		"DESCRIPTION": "Даёт !B! Защиты. Накладывает врагу !M! Яда в ответ на каждую атаку в этом ходу."
+	},
+	"HollowMod:EmbracetheVoid": {
+		"NAME": "WIP Embrace the Void",
+		"DESCRIPTION": "Costs 1 [E] Less for each [#696969]Void[]. Draw cards until you draw a [#696969]Void[] or draw 5 cards. Exhaust",
+		"UPGRADE_DESCRIPTION": "Costs 1 [E] Less for each [#696969]Void[]. Draw cards until you draw a [#696969]Void[] or draw 5 cards."
+	},
+	"HollowMod:GoodIntentions": {
+		"NAME": "Добрые намерения",
+		"DESCRIPTION": "Даёт !B! Защиты. NL Даёт !M! hollowmod:Души.",
+		"UPGRADE_DESCRIPTION": "Даёт !B! Защиты. NL Даёт !M! hollowmod:Души. NL Даёт 1 Панцирь."
+	},
+	"HollowMod:GrimmsGift": {
+		"NAME": "Подарок Гримма",
+		"DESCRIPTION": "Накладывает на врага 1 Уязвимости, когда вы наносите ему урон."
+	},
+	"HollowMod:Hiveblood": {
+		"NAME": "Кровь улья",
+		"DESCRIPTION": "Отнимает !M! ОЗ, даёт половину от этого значения Регенерации. Сжигается."
+	},
+	"HollowMod:HuntersJournal": {
+		"NAME": "Журнал Охотника",
+		"DESCRIPTION": "Вы берёте !M! карты. Сжигается.",
+		"UPGRADE_DESCRIPTION": "Вы берёте !M! карты. Даёт [E]. NL Сжигается."
+	},
+	"HollowMod:LifebloodCocoon": {
+		"NAME": "Кокон живокрови",
+		"DESCRIPTION": "Даёт !M! Временного_ОЗ каждый раз, когда вы разыгрываете Атаку в этом ходу."
+	},
+	"HollowMod:LifebloodCore": {
+		"NAME": "Живительное ядро",
+		"DESCRIPTION": "Эфирная. NL Вы теряете ВСЮ Защиту. NL Даёт !M! Временного_ОЗ за каждую потерянную единицу Защиты. Сжигается.",
+		"UPGRADE_DESCRIPTION": "Вы теряете ВСЮ Защиту. NL Даёт !M! Временного_ОЗ за каждую потерянную единицу Защиты. Сжигается."
+	},
+	"HollowMod:LifebloodHeart": {
+		"NAME": "DEPRECATED Lifeblood Heart",
+		"DESCRIPTION": "Gain !M! Temporary_HP, If you take no unblocked damage this turn, repeat this effect next turn. Exhaust."
+	},
+	"HollowMod:LuriensSpire": {
+		"NAME": "Шпиль Лурьена",
+		"DESCRIPTION": "Вы теряете ВСЮ [#FFA200]Инфекцию[]. Даёт равное показтелю потерянной [#FFA200]Инфекции[] hollowmod:Души NL или, если у вас [#696969]Пустота[], даёт столько же [#696969]Пустоты[]. NL Сжигается.",
+		"UPGRADE_DESCRIPTION": "Вы теряете ВСЮ [#FFA200]Инфекцию[]. Даёт равное показтелю потерянной [#FFA200]Инфекции[] hollowmod:Души NL или, если у вас [#696969]Пустота[], даёт столько же [#696969]Пустоты[]."
+	},
+	"HollowMod:MantisClaw": {
+		"NAME": "DEPRECATED Mantis Claw",
+		"DESCRIPTION": "Exhaust 3 cards in your hand. Draw 1 Card and Deal !D! damage to a single enemy for each card Exhausted. Exhaust."
+	},
+	"HollowMod:MantisMark": {
+		"NAME": "Знак богомола",
+		"DESCRIPTION": "Даёт !M! Силы. NL Сжигается."
+	},
+	"HollowMod:MawleksShell": {
+		"NAME": "Оболочка чревня",
+		"DESCRIPTION": "Даёт !M! Ловкости. NL [#FFA200]Инфекция[] !HollowMod:SecondMagic!."
+	},
+	"HollowMod:MonarchWings": {
+		"NAME": "Монаршие крылья",
+		"DESCRIPTION": "В след. !M! ходах удваивает Защиту [#60CFFF]Рывков[]. NL Сжигается."
+	},
+	"HollowMod:MonomonsArchive": {
+		"NAME": "Архивы Мономоны",
+		"DESCRIPTION": "[#EFFAFF]Фокус[] 5: Даёт !B! Защиты."
+	},
+	"HollowMod:MylasSalvation": {
+		"NAME": "Спасение Милы",
+		"DESCRIPTION": "Вы кладёте в руку выбранную Сожжённую карту. Сжигается."
+	},
+	"HollowMod:theNailsmith": {
+		"NAME": "Кузнец гвоздей",
+		"DESCRIPTION": "Улучшает Атаку при её разыгрывание до конца боя. Не работает с Атаками [#60CFFF]Заклинаниями[]."
+	},
+	"HollowMod:Overcharmed": {
+		"NAME": "DEPRECATED Overcharmed",
+		"DESCRIPTION": "Lose 6 HP. Gain !M! Strength until the end of the turn."
+	},
+	"HollowMod:PaleKingsBlessing": {
+		"NAME": "Благословение Бледного короля",
+		"DESCRIPTION": "Восполняет !M! ОЗ. Всполняет на !HollowMod:SecondMagic! ОЗ больше за каждую [#FFA200]Инфекцию[]. NL Сжигается."
+	},
+	"HollowMod:PerfectDash": {
+		"NAME": "Идеальный рывок",
+		"DESCRIPTION": "Даёт 1 Неосязаемости. Сжигается.",
+		"UPGRADE_DESCRIPTION": "Даёт 1 Неосязаемости. Даёт !B! Защиты. Сжигается."
+	},
+	"HollowMod:PureVessel": {
+		"NAME": "Чистый Сосуд",
+		"DESCRIPTION": "В начале каждого вашего хода заплатите 1 hollowmod:Душу, чтобы получить 1 Силу. NL Эти значения повышаются на 1 каждый ваш ход. Если вы не можете заплатить, потеряйте эффект этого Таланта и всю полученную Силу.",
+		"UPGRADE_DESCRIPTION": "Оставляется. NL В начале каждого вашего хода заплатите 1 hollowmod:Душу, чтобы получить 1 Силу. NL Эти значения повышаются на 1 каждый ваш ход. Если вы не можете заплатить, потеряйте эффект этого Таланта и всю полученную Силу."
+	},
+	"HollowMod:RadiancesLament": {
+		"NAME": "Горе Лучезарности",
+		"DESCRIPTION": "Вы кладёте в руку все карты [#FFA200]Инфекции из стопки сброса, добора и сожённых карт. Сжигается.",
+		"UPGRADE_DESCRIPTION": "Вы кладёте в руку все карты [#FFA200]Инфекции из стопки сброса, добора и сожённых карт. Они стоят на [E] меньше в этом ходу. Сжигается."
+	},
+	"HollowMod:ShadowDash": {
+		"NAME": "Теневой рывок",
+		"DESCRIPTION": "[#696969]Пустота[] 1: Даёт Защиту равная твоему количеству [#696969]Пустоты[]. Сжигается.",
+		"UPGRADE_DESCRIPTION": "[#696969]Пустота[] 1: Даёт Защиту равная твоему количеству [#696969]Пустоты[].",
+		"EXTENDED_DESCRIPTION": [" ( !M! Защиты.)"]
+	},
+	"HollowMod:SiblingsShadow": {
+		"NAME": "Родственные тени",
+		"DESCRIPTION": "[#696969]Пустота[] 1: Вы кладёте в руку !M! выбранных Сожжённые карт [#696969]Пустоты[]. Сжигается."
+	},
+	"HollowMod:SiblingsSouls": {
+		"NAME": "Родственные души",
+		"DESCRIPTION": "Копирует следующую разыгранную Атаку или Навык в руку. Сжигается."
+	},
+	"HollowMod:SoulShaman": {
+		"NAME": "Искажатель душ",
+		"DESCRIPTION": "[#EFFAFF]Фокус[] 5: Даёт [E].",
+		"UPGRADE_DESCRIPTION": "[#EFFAFF]Фокус[] 5: Даёт [E] [E]."
+	},
+	"HollowMod:SoulSplash": {
+		"NAME": "Всплеск души",
+		"DESCRIPTION": "[#EFFAFF]Фокус[] !HollowMod:focusCost! : Накладывает !M! Уязвимости на ВСЕХ врагов. NL Вы берёте 1 карту."
+	},
+	"HollowMod:SoulTotem": {
+		"NAME": "DEPRECATED Soul Totem",
+		"DESCRIPTION": "Gain !M! hollowmod:Soul. Draw !HollowMod:SecondMagic! card. Exhaust.",
+		"UPGRADE_DESCRIPTION": "Gain !M! hollowmod:Soul. Draw !HollowMod:SecondMagic! cards. Exhaust."
+	},
+	"HollowMod:SporeShroom": {
+		"NAME": "WIP Spore Shroom",
+		"DESCRIPTION": "[#EFFAFF]Focus[] 3: Discard up to 3 cards. Heal 2 HP and Apply 1 Poison to all enemies for each Card Discarded. Exhaust."
+	},
+	"HollowMod:StalwartShell": {
+		"NAME": "DEPRECATED Stalwart Shell",
+		"DESCRIPTION": "Gain !M! #yPlated #yArmor. NL Exhaust."
+	},
+	"HollowMod:TaintedHusks": {
+		"NAME": "Заражённые оболочки",
+		"DESCRIPTION": "Накладывает 2 Яда случ. врагу !M! раза. NL [#FFA200]Инфекция[] 3."
+	},
+	"HollowMod:VoidDash": {
+		"NAME": "Рывок пустоты",
+		"DESCRIPTION": "[#696969]Пустота[] 2: Даёт !B! Защиты. Наносит врагу !M! урона и накладывает 1 Уязвимости в ответ на каждую Атаку в этом ходу. NL (Накладывает 2 Уязвимости, если у врага нет её)."
+	},
+
+	"HollowMod:NEWCARDS": {
+		"NAME": "Sorry Fish",
+		"DESCRIPTION": ""
+	},
+
+
+	"HollowMod:NewJinnsSoul": {
+		"NAME": "Душа Джинна",
+		"DESCRIPTION": "Вы теряете все hollowmod:Души, [#696969]Пустоту[] и [#FFA200]Инфекцию[]. Даёт !M! Временного_ОЗ за сумму всех потерянных показателей. NL Сжигается.",
+		"UPGRADE_DESCRIPTION": "Вы теряете все hollowmod:Души, [#696969]Пустоту[] и [#FFA200]Инфекцию[]. Даёт !M! Временного_ОЗ за сумму всех потерянных показателей."
+	},
+
+	"HollowMod:NewLittleFool": {
+		"NAME": "Маленький глупец",
+		"DESCRIPTION": "Сжигает 1 карту. Наносит !D! урона."
+	},
+	"HollowMod:NewLastStag": {
+		"NAME": "Последний Рогач",
+		"DESCRIPTION": "Вы кладёте в руку выбранную карту из стопки добора.",
+		"UPGRADE_DESCRIPTION": "Вы кладёте в руку выбранную карту из стопки добора. NL Вы кладёте в руку выбранную карту из стопки сброса."
+	},
+	"HollowMod:NewGlowingWomb": {
+		"NAME": "Пылающее чрево",
+		"DESCRIPTION": "Даёт 4 Защиты и отнимает 1 [#FFA200]Инфекцию[] в начале вашего хода, если у вас есть [#FFA200]Инфекция[]. NL [#FFA200]Инфекция[] !HollowMod:SecondMagic!. (Защита этой карты зависит от Ловкости)."
+	},
+	"HollowMod:NewInfectedGuardian": {
+		"NAME": "Заражённый Кристаллический страж",
+		"DESCRIPTION": "Можно разыграть, если у вас есть ровно или больше !M! [#FFA200]Инфекции[]. NL Удваивает Яд ВСЕХ врагов. Удваивает вашу [#FFA200]Инфекцию[]. NL Сжигается.",
+		"UPGRADE_DESCRIPTION": "Недостаточно [#FFA200]Инфекции[]."
+	},
+
+
+
+	"HollowMod:MORENEWCARDS": {
+		"NAME": "Sorry Amethyst!",
+		"DESCRIPTION": ""
+	},
+
+	"HollowMod:HerrahsAnger": {
+		"NAME": "Гнездо Херры",
+		"DESCRIPTION": "В начале вашего след. хода добавляет !M! hollowmod:Ткачей в руку. Добавляет на 1 [#F4D03F]Ткача больше за каждого сыгранного [#60CFFF]Соратника до конца этого хода."
+	},
+
+
+
+
+
+
+
+	"HollowMod:NewNestling": {
+		"NAME": "Ткач",
+		"DESCRIPTION": "Наносит !D! урона. NL Сжигается."
+	},
+	"HollowMod:NewInfectling": {
+		"NAME": "Заражённый ткач",
+		"DESCRIPTION": "Накалдывает !M! Яда. NL Сжигается."
+	},
+	"HollowMod:NewDarkNestling": {
+		"NAME": "Тёмный ткач",
+		"DESCRIPTION": "[#696969]Пустота[] 1: Наносит !D! урона. За каждые !M! [#696969]Пустоты[] урон, наносимой этой картой, повышается на 1. NL Сжигается."
+	},
+	"HollowMod:NewSoulNestling": {
+		"NAME": "Душа ткача",
+		"DESCRIPTION": "[#EFFAFF]Фокус[] 1: Наносит !D! урона. Восполняет !M! ОЗ. NL Сжигается."
+	},
+	"HollowMod:NewZoteling": {
+		"NAME": "Ткач по имене Зот",
+		"DESCRIPTION": "Наносит !D! урона. Вы берёте !M! карту. NL Сжигается."
+	}
+}
