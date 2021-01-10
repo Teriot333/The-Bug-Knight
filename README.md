@@ -1,4 +1,4 @@
-Перевод мода The Bug Knight для игры Sley The Spire.
+Перевод мода The Bug Knight для игры Slay The Spire.
 
 Оригинальный мод: https://steamcommunity.com/sharedfiles/filedetails/?id=1750758531
 
