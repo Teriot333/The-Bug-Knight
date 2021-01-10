@@ -8,7 +8,7 @@
 
 -открыть файл HollowMod.jar редактором архивов (winzip, winrar, 7z);
 
--открыть папку по пути HollowMod.jar\HollowModResources\localization\eng;
+-в архиве открыть папку по пути HollowMod.jar\HollowModResources\localization\eng;
 
 -заменить файлы в папке eng файлами архива The-Bug-Knight-main (кроме README);
 
