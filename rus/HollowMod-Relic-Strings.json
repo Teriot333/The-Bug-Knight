@@ -1,0 +1,147 @@
+{
+  "HollowMod:VesselMask": {
+    "NAME": "Маска рыцаря",
+    "FLAVOR": "Все Сосуды носят маску.",
+    "DESCRIPTIONS": [
+      "Даёт #b1 #yhollowmod:Души, когда вы разыгрываете #yАтаку. Не работает с #yАтаками #bhollowmod:Заклинаниями или #bСоратниками."
+    ]
+  },
+  "HollowMod:PlaceholderRelic": {
+    "NAME": "Placeholder Energy Relic",
+    "FLAVOR": "The snake is a friend.",
+    "DESCRIPTIONS": [
+      "Gain #b1 [E]."
+    ]
+  },
+  "HollowMod:PlaceholderRelic2": {
+    "NAME": "Placeholder Relic 2",
+    "FLAVOR": "You feel stronger.",
+    "DESCRIPTIONS": [
+      "At the start of each combat, gain #b1 #yStrength."
+    ]
+  },
+  "HollowMod:DefaultClickableRelic": {
+    "NAME": "Right-Clicky Relic",
+    "FLAVOR": "The more you right-click it, the more orbs you've evoked in your lifetime.",
+    "DESCRIPTIONS": [
+      "[#2aecd7]Usable [#2aecd7]once [#2aecd7]per [#2aecd7]turn.[] NL #yEvoke your rightmost Orb.",
+      "YOU ARE MINE!"
+    ]
+  },
+  "HollowMod:BottledPlaceholderRelic": {
+    "NAME": "Bottled Placeholder",
+    "FLAVOR": "What is this?",
+    "DESCRIPTIONS": [
+      "Choose a card. Whenever you take play any card, draw the chosen card.",
+      "Whenever you play a card, draw ",
+      ".",
+      "Select a card to bottle for "
+    ]
+  },
+  "HollowMod:VoidIdolRelic": {
+    "NAME": "Сердце пустоты",
+    "FLAVOR": "Амулет, созданный жидкостью из Бездны. В нём нет никакой жизни.",
+    "DESCRIPTIONS": [
+      "Заменяет «Маску рыцаря» или [#EFFAFF]«Душу[] [#EFFAFF]Короля»[]. Вы не можете получать #yhollowmod:Душу. Карты [#696969]Пустоты[] не #yСжигаются. Начальные Удары гвоздём #yСжигаются."
+    ]
+  },
+  "HollowMod:QueensCombRelic": {
+    "NAME": "Соты Королевы пчёл",
+    "FLAVOR": "Ценный нектар Улья в форме золотого самородка.",
+    "DESCRIPTIONS": [
+      "При получении #rотнимает #r33% #rМакс. #rОЗ. Пока вы не получили урон по ОЗ в этом бою, восполняет #g",
+      " #gОЗ в начале вашего хода."
+    ]
+  },
+  "HollowMod:LifeEnderRelic": {
+    "NAME": "Жизнь уносящий",
+    "FLAVOR": "Ещё один дурак, которого прикончит Жизнь уносящий...",
+    "DESCRIPTIONS": [
+      "Разыгрывая каждую #b5 #yАтаку в этом бою, вы берёте #b1 карту."
+    ]
+  },
+  "HollowMod:MillibellesNoteRelic": {
+    "NAME": "Замечание Миллибель",
+    "FLAVOR": "До сих пор не заинтересован? Ты слишком нерешителен.",
+    "DESCRIPTIONS": [
+      "Даёт #b2 #yhollowmod:Души в начале боя."
+    ]
+  },
+  "HollowMod:MantisClawRelic": {
+    "NAME": "Клешня богомола",
+    "FLAVOR": "Клешня, вырезанная из кости.",
+    "DESCRIPTIONS": [
+      "Вы получаете [E] при первом за ход разыгрывании #b3 [#60CFFF]Рывков."
+    ]
+  },
+  "HollowMod:LumaflyLanternRelic": {
+    "NAME": "Светомуший фонарь",
+    "FLAVOR": "Освещает тёмные пещеры, помогая путнику найти верный путь.",
+    "DESCRIPTIONS": [
+      "Даёт #b1 #yЗащиты, когда вы берёте [#60CFFF]Соратника[]."
+    ]
+  },
+  "HollowMod:PaleOreRelic": {
+    "NAME": "Бледная руда",
+    "FLAVOR": "Ценим мастерами по оружию.",
+    "DESCRIPTIONS": [
+      "Начальные Удары гвоздём наносят на #b2 урона больше."
+    ]
+  },
+  "HollowMod:JonisBlessing": {
+    "NAME": "Благословение Джони",
+    "FLAVOR": "Благословение Джони, доброй еретички. Переводит живительные жидкости в живокровь.",
+    "DESCRIPTIONS": [
+      "Даёт #b15 #bВременного #bОЗ в начале боя. Вместо восполнения ОЗ, лечение в бою повышает количество #bВременного #bОЗ."
+    ]
+  },
+  "HollowMod:IsmasTear": {
+    "NAME": "Слеза Измы",
+    "FLAVOR": "Фрукт, созданный из одной-единственной окаменевшей слезы.",
+    "DESCRIPTIONS": [
+      "Снижает урон от [#FFA200]Инфекции на #b2."
+    ]
+  },
+  "HollowMod:DelicateFlower": {
+    "NAME": "Нежный цветок",
+    "FLAVOR": "Серая Плакальщица передаёт привет.",
+    "DESCRIPTIONS": [
+      "Если у вас полное ОЗ, заполняет #yПоказатель #yhollowmod:Души в начале вашего хода."
+    ]
+  },
+  "HollowMod:KingsBrand": {
+    "NAME": "Тавро Короля",
+    "FLAVOR": "Все древние тайны Халлоунеста раскроются пред ним.",
+    "DESCRIPTIONS": [
+      "Пока у вас достаточно [#FFA200]Инфекции[], [#EFFAFF]Фокус[] будет использоваться [#FFA200]Инфекцией (даже имея [#696969]Пустоту[]) вместо #yhollowmod:Души."
+    ]
+  },
+  "HollowMod:StagPassRelic": {
+    "NAME": "Проездной Рогача",
+    "FLAVOR": "Звон колокола всегда зовёт меня обратно.",
+    "DESCRIPTIONS": [
+      "#yУлучшает покупаемые карты в колоду у Торговца."
+    ]
+  },
+  "HollowMod:KingsSoulRelic": {
+    "NAME": "Душа Короля",
+    "FLAVOR": "Священный амулет, символизирующий союз между высшими существами.",
+    "DESCRIPTIONS": [
+      "Заменяет «Маску рыцаря» или [#696969]«Сердце[] [#696969]Пустоты»[]. Даёт #b4 #yhollowmod:Души в начале вашего хода. Повышает лимит #yПоказателя #yДуши на #b2."
+    ]
+  },
+  "HollowMod:GodTunerRelic": {
+    "NAME": "GodTuner",
+    "FLAVOR": "Device that resonates with beings of great power.",
+    "DESCRIPTIONS": [
+      "Gain #b1 [E] at the start of each turn. #ySoul #yMeter #yLimit is reduced by #b3."
+    ]
+  },
+  "HollowMod:GreatKnightMask": {
+    "NAME": "Маска могучего рыцаря",
+    "FLAVOR": "Не волнуйся, трус... Твоя погибель будет быстрой...",
+    "DESCRIPTIONS": [
+      "Зот не нуждается в эффектах."
+    ]
+  }
+}
