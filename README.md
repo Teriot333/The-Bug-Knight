@@ -13,3 +13,5 @@
 -заменить файлы в папке eng файлами архива The-Bug-Knight-main (кроме README);
 
 -Играть!
+
+Видео инструкция: https://www.youtube.com/watch?v=bBMtYdGAk0g
